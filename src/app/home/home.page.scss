@@ -1,27 +1,106 @@
-#container {
-  text-align: center;
+@import '../../theme/variables.scss';
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+// #container strong {
+//   font-size: 20px;
+//   line-height: 26px;
+// }
 
-  color: #8c8c8c;
+// #container p {
+//   font-size: 16px;
+//   line-height: 22px;
 
-  margin: 0;
-}
+//   color: #8c8c8c;
 
-#container a {
-  text-decoration: none;
+//   margin: 0;
+// }
+
+// #container a {
+//   text-decoration: none;
+// }
+
+
+
+ion-content {
+  #container {
+    background-color: #896AF9;
+
+    ion-title {
+      background-color: #896AF9;
+      color: #FFF;
+      padding: 0 16px;
+
+      .logo {
+        width: 63px;
+        height: 27px;
+      }
+
+    }
+
+    .main_header {
+      display: flex;
+      padding: 104px 16px 56px 16px;
+      flex-direction: column;
+      align-items: center;
+      gap: 80px;
+      align-self: stretch;
+
+    }
+
+    .main_heading_title {
+      color: #FFF;
+      text-align: center;
+      text-shadow: 2px 2px 0px #896AF9;
+      font-family: Nunito;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 120%;
+      width: 100%;
+      max-width: 328px;
+      margin: auto;
+      padding: 0 16px;
+    }
+
+    p {
+      color: #FFF;
+      text-align: center;
+      font-family: Nunito;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+    }
+
+    .subscribe_btn {
+      border-radius: 12px;
+      border: 1px solid #896AF9;
+      background: var(--White, #FFF);
+      box-shadow: 4px 4px 0px -1px #896AF9;
+      display: flex;
+      justify-content: center;
+      margin: 24px;
+      line-height: 28px;
+      width: 200px;
+      margin: 24px auto;
+      margin-bottom: 80px;
+      height: auto;
+      border-radius: 12px;
+
+      button {
+        color: #896AF9;
+        padding: 10px 24px;
+        width: 24px auto;
+        text-align: center;
+        font-family: Nunito;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+
+      }
+
+      line-height: 28px;
+    }
+  }
 }

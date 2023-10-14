@@ -23,8 +23,38 @@
 
 
 ion-content {
+  .subscribe_btn {
+    border-radius: 12px;
+    border: 1px solid #896AF9;
+    background: var(--White, #FFF);
+    box-shadow: 4px 4px 0px -1px #896AF9;
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+    line-height: 28px;
+    width: 200px;
+    margin: 24px auto;
+    margin-bottom: 80px;
+    height: auto;
+    border-radius: 12px;
+
+    button {
+      color: #896AF9;
+      padding: 10px 24px;
+      width: 24px auto;
+      text-align: center;
+      font-family: Nunito;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 900;
+      background-color: #FFF;
+
+    }
+
+    line-height: 28px;
+  }
+
   #container {
-    background-color: #896AF9;
 
     ion-title {
       background-color: #896AF9;
@@ -39,6 +69,7 @@ ion-content {
     }
 
     .main_header {
+      background-color: #896AF9;
       display: flex;
       padding: 104px 16px 56px 16px;
       flex-direction: column;
@@ -46,61 +77,195 @@ ion-content {
       gap: 80px;
       align-self: stretch;
 
-    }
+      .main_heading_title {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 2px 2px 0px #896AF9;
+        font-family: Nunito;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%;
+        width: 100%;
+        max-width: 328px;
+        margin: auto;
+        padding: 0 16px;
+      }
 
-    .main_heading_title {
-      color: #FFF;
-      text-align: center;
-      text-shadow: 2px 2px 0px #896AF9;
-      font-family: Nunito;
-      font-size: 40px;
-      font-style: normal;
-      font-weight: 900;
-      line-height: 120%;
-      width: 100%;
-      max-width: 328px;
-      margin: auto;
-      padding: 0 16px;
-    }
-
-    p {
-      color: #FFF;
-      text-align: center;
-      font-family: Nunito;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 150%;
-    }
-
-    .subscribe_btn {
-      border-radius: 12px;
-      border: 1px solid #896AF9;
-      background: var(--White, #FFF);
-      box-shadow: 4px 4px 0px -1px #896AF9;
-      display: flex;
-      justify-content: center;
-      margin: 24px;
-      line-height: 28px;
-      width: 200px;
-      margin: 24px auto;
-      margin-bottom: 80px;
-      height: auto;
-      border-radius: 12px;
-
-      button {
-        color: #896AF9;
-        padding: 10px 24px;
-        width: 24px auto;
+      p {
+        color: #FFF;
         text-align: center;
         font-family: Nunito;
         font-size: 20px;
         font-style: normal;
-        font-weight: 900;
-
+        font-weight: 700;
+        line-height: 150%;
       }
 
-      line-height: 28px;
     }
+
+    .discover {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 80px 16px 56px 16px;
+
+      h4 {
+        color: var(--Black, #000);
+        text-align: center;
+        font-family: Nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+      }
+
+      h2 {
+        color: var(--Black, #000);
+        text-align: center;
+        font-family: Nunito;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+      }
+
+      .discover_p {
+        color: var(--Black, #000);
+        text-align: center;
+        font-family: Nunito;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin: auto;
+        margin-top: 24px;
+        margin-bottom: 80px;
+      }
+    }
+
+    .cards {
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 48px;
+
+        h1 {
+          color: var(--Black, #000);
+          text-align: center;
+          font-family: Nunito;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 130%;
+          margin-top: 24px;
+          margin-bottom: 24px;
+        }
+
+        .text {
+          color: var(--Black, #000);
+          text-align: center;
+          font-family: Nunito;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+          max-width: 80%;
+        }
+
+        img {
+          width: 96px;
+          height: 96px;
+          margin: auto;
+        }
+      }
+
+
+    }
+
+    .logos {
+      ul li {
+        list-style: none;
+        margin: 32px 0;
+      }
+
+      ul li a {
+        text-decoration: none;
+        color: var(--Black, #000);
+        font-family: Nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+      }
+
+    }
+
+    .submit_btn {
+      border-radius: 0;
+      font-size: 18px;
+      background-color: #fff;
+      --background: #fff;
+      color: var(--Black, #000);
+      border: 1px solid black;
+    }
+
+    .title_p {
+      font-size: 16px;
+      color: #000000;
+      font-weight: 600;
+      margin: 32px 16px;
+    }
+
+    .form_secont_p {
+      color: var(--Black, #000);
+      font-family: Nunito;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      margin: 0 32px;
+
+      a {
+        color: var(--Black, #000);
+      }
+    }
+
+    .footer {
+      border-top: 1px solid black;
+      width: 80%;
+      margin-top: 32px;
+
+      ul {
+        padding: 0;
+      }
+
+      ul li {
+        list-style: none;
+        margin: 32px 0;
+
+        a {
+          color: var(--Black, #000);
+          font-family: Nunito;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+        }
+      }
+
+      .rights {
+        color: var(--Black, #000);
+        font-family: Nunito;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+      }
+    }
+
+
   }
 }

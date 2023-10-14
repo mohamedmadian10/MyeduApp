@@ -16,17 +16,16 @@
 
 <ion-content [fullscreen]="true">
 
-
-
   <div id="container">
     <!-- <ion-header collapse="condense" > -->
     <ion-toolbar class="ion-no-padding">
       <ion-title class="ion-no-padding" size="large" slot="start">
         <!-- <div class="logo"> -->
-          Logo
+        Logo
         <!-- </div> -->
       </ion-title>
     </ion-toolbar>
+    <!-- the start of main header -->
     <ion-grid class="main_header">
       <ion-row>
         <ion-col size="12">
@@ -47,6 +46,129 @@
         </ion-col>
       </ion-row>
     </ion-grid>
-    <!-- </ion-header> -->
+    <!-- the End if main header -->
+    <!-- the start of discover section -->
+    <ion-grid class="discover">
+      <ion-row>
+        <ion-col size="12">
+          <h4>Discover</h4>
+          <h2>
+            How It Works: Subscribe and Receive Your Surprise Box
+          </h2>
+          <p class="discover_p">
+            Subscribe to our surprise subscription box and give your child the gift of learning. Each month, we curate a
+            box filled
+            with educational materials tailored to your child's age and interests.
+          </p>
+        </ion-col>
+      </ion-row>
+      <ion-row class="cards">
+        <ion-col size="12" sizeLg="4">
+          <div class="card">
+            <img src="../../assets/subscribe 1.svg" alt="subscribe">
+            <h1>Step 1: Subscribe</h1>
+            <p class="text">
+              Select a subscription plan that suits your child's learning needs and preferences.
+            </p>
+          </div>
+        </ion-col>
+        <ion-col size="12" sizeLg="4">
+          <div class="card">
+            <img src="../../assets/customize 1.svg" alt="subscribe">
+            <h1>Step 2: Personalise Your Box</h1>
+            <p class="text">
+              Tell us about your child's age, interests, and learning goals, and we'll customize their surprise box
+              accordingly.
+            </p>
+          </div>
+        </ion-col>
+        <ion-col size="12" sizeLg="4">
+          <div class="card">
+            <img src="../../assets/surprise_5659573 1.svg" alt="subscribe">
+            <h1>Step 3: Receive Your Surprise Box</h1>
+            <p class="text">
+              Sit back and relax as your child eagerly awaits the arrival of their monthly surprise box filled with
+              engaging learning
+              materials.
+            </p>
+          </div>
+        </ion-col>
+        <div class="subscribe_btn">
+          <button> Subscribe Now</button>
+        </div>
+      </ion-row>
+    </ion-grid>
+    <!-- the End of discover section -->
+    <ion-grid class="logos">
+      <ion-row>
+        <ion-col size="4">
+          <ul>
+            <li>
+              <img src="../../assets/logo.svg" alt="">
+            </li>
+            <li>
+              <a href="#">Link one</a>
+            </li>
+            <li>
+              <a href="#">Link Two</a>
+            </li>
+            <li>
+              <a href="#">Link Three</a>
+            </li>
+            <li>
+              <a href="#">Link Four</a>
+            </li>
+            <li>
+              <a href="#">Link Five</a>
+            </li>
+          </ul>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid class=" ion-padding">
+      <p class="title_p">Subscribe</p>
+      <form>
+        <ion-row class="the-rows ion-padding">
+          <ion-col size=11>
+            <ion-item>
+              <ion-input class="ion-text-center" type="email" placeholder="Enter your email"></ion-input>
+            </ion-item>
+          </ion-col>
+
+        </ion-row>
+
+        <ion-row class="ion-padding">
+          <ion-col>
+            <ion-button class="submit_btn" expand="full" type="submit">Subscribe</ion-button>
+          </ion-col>
+        </ion-row>
+        <p class="form_secont_p">
+          By subscribing you agree to with our <a href="">Privacy Policy</a>
+        </p>
+      </form>
+    </ion-grid>
+    <ion-grid class="footer">
+      <ion-row>
+        <ion-col size="6">
+          <ul>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Terms of Service</a>
+            </li>
+            <li>
+              <a href="#">Cookies Settings</a>
+            </li>
+          </ul>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <p class="rights">© 2023 Relume. All rights reserved.</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
   </div>
 </ion-content>
